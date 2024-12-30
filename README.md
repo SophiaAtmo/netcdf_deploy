@@ -3,20 +3,12 @@
 run the code after changing the mode, chmod a+x build_cunit.sh
 
 Environmental variables in ~/.bashrc
+# CUnit
+export LD_LIBRARY_PATH="/home/patrick/NC_library/CUnit/2.1-2/lib:$LD_LIBRARY_PATH"
 
-## Intel oneAPI 
+# UDUNITS
+export UDUNITS2_XML_PATH="/home/patrick/NC_library/udunits/2.2.28/share/udunits/udunits2.xml"
+export PATH="/home/patrick/NC_library/udunits/2.2.28/bin:$PATH"
 
-export OPTIM="-O3"\
-export CC=icc\
-export CXX=icpc\
-export CFLAGS=${OPTIM}\
-export CXXFLAGS=${OPTIM\
-export F77=ifort\
-export FC=ifort\
-export F90=ifort\
-export FFLAGS=${OPTIM}\
-export CPP="icc -E"\
-export CXXCPP="icpc -E"\
-
-export PATH="$path_to_your_netcdf4-intel/bin:$PATH"\
-export LD_LIBRARY_PATH="$path_to_your_netcdf4-intel/lib:$LD_LIBRARY_PATH"
+export PATH="/home/patrick/NC_library/netcdf4-intel/bin:$PATH"
+export LD_LIBRARY_PATH="/home/patrick/NC_library/netcdf4-intel/lib:$LD_LIBRARY_PATH"
