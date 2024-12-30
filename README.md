@@ -4,7 +4,7 @@ run the code after changing the mode, chmod a+x build_cunit.sh
 
 Environmental variables in ~/.bashrc
 # CUnit
-export LD_LIBRARY_PATH="/home/patrick/NC_library/CUnit/2.1-2/lib:$LD_LIBRARY_PATH"
+export LD_LIBRARY_PATH="/path_to_your_CUnit/2.1-2/lib:$LD_LIBRARY_PATH"
 
 # UDUNITS
 export UDUNITS2_XML_PATH="/home/patrick/NC_library/udunits/2.2.28/share/udunits/udunits2.xml"
