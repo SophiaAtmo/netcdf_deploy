@@ -1,5 +1,5 @@
 # netcdf_deploy
-[Reference Link](https://home.hiroshima-u.ac.jp/~leehs/?page_id=5612)\\
+[Reference Link](https://home.hiroshima-u.ac.jp/~leehs/?page_id=5612)\
 run the code after changing the mode, chmod a+x build_cunit.sh
 
 Environmental variables in ~/.bashrc
